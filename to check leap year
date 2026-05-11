@@ -1,0 +1,99 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPLdec0JEHeqys+ykGW8bbM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/oshimansari/new-python/blob/main/to%20check%20leap%20year\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "id": "nyYakXi76oif"
+      },
+      "outputs": [],
+      "source": [
+        "# python program to check if a year is a leap year or not"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "year = int(input(\"Enter a year: \"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FohgWdBZ_AaB",
+        "outputId": "a6e6d4e7-c22e-40df-83eb-d24cbc2f6a67"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter a year: 2025\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):\n",
+        "  print(year, \"is a leap year\")\n",
+        "else:\n",
+        "  print(year, \"is not a leap year\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0f8mnIkE_QDm",
+        "outputId": "e936c30c-98c9-44fa-d3bb-50be1170e88d"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2025 is not a leap year\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "KuJ10EVo_7s5"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
