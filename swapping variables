@@ -1,0 +1,131 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPuGWgAxbHFqIBTYDB7WKPZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/oshimansari/new-python/blob/main/swapping%20variables\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "31TPY4q01kza"
+      },
+      "outputs": [],
+      "source": [
+        "# python program to swap two variables"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = input(\"Enter first variable: \")\n",
+        "b = input(\"Enter second variable: \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8L-66Ctu1z01",
+        "outputId": "f774f94b-1c33-4d8a-ed6e-32c6a5cc53d1"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter first variable: 10\n",
+            "Enter second variable: 20\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"\\nBefore swapping:\")\n",
+        "print(\"a =\", a)\n",
+        "print(\"b =\", b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Mmx-6mjg2N9_",
+        "outputId": "67554cfa-8841-4fa9-f1d0-682f5ffaa582"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "Before swapping:\n",
+            "a = 10\n",
+            "b = 20\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"\\nAfter swapping:\")\n",
+        "print(\"a =\", a)\n",
+        "print(\"b =\", b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oXnKLAKC2xqK",
+        "outputId": "db14872e-3e17-477f-e980-096ee9675f8b"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "After swapping:\n",
+            "a = 10\n",
+            "b = 20\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "H1B446uq3Nva"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
