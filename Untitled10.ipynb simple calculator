@@ -1,0 +1,151 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNR7iSlV1EvYx1f7PYNonYc",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/oshimansari/new-python/blob/main/Untitled10.ipynb%20simple%20calculator\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "id": "JnCqQ0TXerLa"
+      },
+      "outputs": [],
+      "source": [
+        "# Python program for simple calculator"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = float(input(\"Enter first number: \"))\n",
+        "num2 = float(input(\"Enter second number: \"))\n",
+        "\n",
+        "print(\"Select operation.\")\n",
+        "print(\"1.Add\")\n",
+        "print(\"2.Subtract\")\n",
+        "print(\"3.Multiply\")\n",
+        "print(\"4.Divide\")"
+      ],
+      "metadata": {
+        "id": "Ou9SDv53giq2"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "choice = input(\"Enter choice (1/2/3/4): \")"
+      ],
+      "metadata": {
+        "id": "pES-G4S7g0la"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if choice == '1':\n",
+        "    print(num1, \"+\", num2, \"=\", num1 + num2)"
+      ],
+      "metadata": {
+        "id": "Zes_85JzhMUA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "elif choice == '2':\n",
+        "    print(num1, \"-\", num2, \"=\", num1 - num2)"
+      ],
+      "metadata": {
+        "id": "iC102d_3hTLe"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "elif choice == '3':\n",
+        "    print(num1, \"*\", num2, \"=\", num1 * num2)"
+      ],
+      "metadata": {
+        "id": "HK55rgChhYcs"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "elif choice == '4':\n",
+        "    print(num1, \"/\", num2, \"=\", num1 / num2)"
+      ],
+      "metadata": {
+        "id": "O0WH-MMFhfSc"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "else:\n",
+        "    print(\"Division by zero is not allowed!\")"
+      ],
+      "metadata": {
+        "id": "YUt-YESqhlZJ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "else:\n",
+        "    print(\"Invalid choice!\")"
+      ],
+      "metadata": {
+        "id": "Kzdtqw2mh5v2"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Z1TF4E4YiICM"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
