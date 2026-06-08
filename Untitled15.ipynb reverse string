@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNRsh31h1tfn/CxWpqmfuPr",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/oshimansari/new-python/blob/main/Untitled15.ipynb%20reverse%20string\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "O_1kvobOu7P_"
+      },
+      "outputs": [],
+      "source": [
+        "# python program to reverse a string"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "string = input(\"Enter a string: \")\n",
+        "reversed_string = string[::-1]\n",
+        "print(\"Reversed string:\", reversed_string)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CaycnPErvAvZ",
+        "outputId": "30ce550c-0de7-478c-dd07-e0e29828383b"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a string: Oshim\n",
+            "Reversed string: mihsO\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
